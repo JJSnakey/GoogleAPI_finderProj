@@ -1,0 +1,10 @@
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\bin\Debug\CrimeDataFormsApp.exe.config
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\bin\Debug\CrimeDataFormsApp.exe
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\bin\Debug\CrimeDataFormsApp.pdb
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.csproj.AssemblyReference.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.Form1.resources
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.Properties.Resources.resources
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.csproj.GenerateResource.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.exe
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment3\CrimeDataService\CrimeDataFormsApp\obj\Debug\CrimeDataFormsApp.pdb
