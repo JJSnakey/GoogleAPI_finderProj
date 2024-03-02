@@ -1,0 +1,7 @@
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\bin\electiveService1.dll.config
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\bin\electiveService1.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\bin\electiveService1.pdb
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\obj\Debug\electiveService1.csproj.AssemblyReference.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\obj\Debug\electiveService1.csproj.CoreCompileInputs.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\obj\Debug\electiveService1.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService1\obj\Debug\electiveService1.pdb

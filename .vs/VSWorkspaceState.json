@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\electiveServices",
+    "\\electiveServices\\electiveService1"
   ],
+  "SelectedNode": "\\electiveServices\\electiveService1\\Service1.svc.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment3\\electiveServices\\",
+  "WorkspaceRootPath": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment3\\electiveservices\\electiveservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveservice2\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|solutionrelative:electiveservice2\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveservice2\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|solutionrelative:electiveservice2\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|solutionrelative:electiveservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveservice1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|solutionrelative:electiveservice1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\IService1.cs",
+              "RelativeDocumentMoniker": "ElectiveService2\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\IService1.cs",
+              "RelativeToolTip": "ElectiveService2\\IService1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T03:45:33.625Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Service1.svc.cs",
-              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment3\\electiveServices\\electiveService1\\Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "ElectiveService2\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\Service1.svc.cs",
+              "RelativeToolTip": "ElectiveService2\\Service1.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T03:45:25.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\IService1.cs",
+              "RelativeDocumentMoniker": "electiveService1\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\IService1.cs",
+              "RelativeToolTip": "electiveService1\\IService1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T03:41:56.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\Service1.svc.cs",
               "RelativeDocumentMoniker": "electiveService1\\Service1.svc.cs",
-              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment3\\electiveServices\\electiveService1\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\Service1.svc.cs",
               "RelativeToolTip": "electiveService1\\Service1.svc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T03:35:48.101Z",
               "EditorCaption": ""

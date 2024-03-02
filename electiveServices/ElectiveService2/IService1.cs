@@ -1,29 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System;
 using System.ServiceModel;
-
 
 /*
 Joshua Greer 1218576515
 CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
-Elective Service 1
+Elective Service 2
 
 
 Detailed comments and known bugs in the Service1.svc.cs file
 (workflow on top, bugs/test cases commented beneath)
  */
 
-namespace ElectiveService1
+namespace ElectiveService2
 {
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
     public interface IService1
     {
 
         //[OperationContract]
-        //Task<string> NaturalHazards(double latitude, double longitude, int radiusKm, decimal minMag);
+        //string GetData(int value);
 
     }
+
 }

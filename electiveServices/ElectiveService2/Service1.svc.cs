@@ -6,12 +6,12 @@ using System.Net.Http;
 Joshua Greer 1218576515
 CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
-Elective Service 1
+Elective Service 2
 
 bugs detailed at bottom
  */
 
-namespace ElectiveService1
+namespace ElectiveService2
 {
     /*THE PLAN================================================================================================
 
