@@ -1,0 +1,10 @@
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.csproj.AssemblyReference.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.Form1.resources
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.Properties.Resources.resources
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.csproj.GenerateResource.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.csproj.CoreCompileInputs.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\bin\Debug\TryItPage.exe.config
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\bin\Debug\TryItPage.exe
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\bin\Debug\TryItPage.pdb
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.exe
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\TryItPage\obj\Debug\TryItPage.pdb

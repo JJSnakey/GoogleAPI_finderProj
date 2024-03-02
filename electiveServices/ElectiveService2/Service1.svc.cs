@@ -7,34 +7,34 @@ Joshua Greer 1218576515
 CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
 Elective Service 2
+Movie theaters within 6400 meters of a given location (4 miles)
+
+http://localhost:52574/Service1.svc
+local host testing
 
 bugs detailed at bottom
  */
 
-namespace ElectiveService2
+namespace electiveService2
 {
     /*THE PLAN================================================================================================
 
      */
     public class Service1 : IService1
     {
-        public async Task<string> NaturalHazards(double latitude, double longitude, int radiusKm, decimal minMag)
+        public async Task<string> findTheaters(double latitude, double longitude)
         {
-            //we are actually going to do specifically earthquakes because this API has global data
-            int eqCount = 0;
-
             //create http instance
             using (HttpClient client = new HttpClient())
             {
                 try
                 {
                     //endpoint url
-                    string apiURL = "https://earthquake.usgs.gov/fdsnws/event/1/";
-                    //query string, we will show # of earthquakes over a year
-                    string subURL = "query?format=geojson&starttime=2022-01-01&endtime=2022-01-31&minmagnitude=" + minMag +
-                        "&latitude=" + latitude + "&longitude=" + longitude + "&maxradiuskm=" + radiusKm;
+                    string apiURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=";
+                    string subURL = latitude + "%2C" + longitude + "&radius=1600&type=park&key=";
+                    string apiKey = "AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s";
 
-                    string requestURL = apiURL + subURL;      //full request url
+                    string requestURL = apiURL + subURL + apiKey;      //full request url
 
                     //make get request
                     HttpResponseMessage response = await client.GetAsync(requestURL);
@@ -44,27 +44,25 @@ namespace ElectiveService2
                     {
                         //read content as string
                         string jsonData = await response.Content.ReadAsStringAsync();
+                        string partial = jsonData.Substring(0, 2108);   //this JSON is huge, we only need a small part of it. This part is the first (closest) record
 
-                        string partial = jsonData.Substring(0, 330);
-
-                        //now that we have partial data, we can parse it for the count of earthquakes
-                        int index = partial.IndexOf("count");
+                        //now that we have partial data, we can parse it for the name of the park
+                        int index = partial.IndexOf("name");
                         if (index == -1)
                         {
-                            return "failed to find the count of earthquakes";
+                            return "There are no parks within a mile of this location";
                         }
                         else
                         {
-                            int j = index + 7; //skip to the number
-                            string num = "";
-                            while (partial[j] != ',' && partial[j] != '}')
+                            int j = index + 9; //skip to the name of the park
+                            string parkName = "";
+                            while (partial[j] != ',' && partial[j] != '}' && partial[j] != '\"')
                             {
-                                num += partial[j];
+                                parkName += partial[j];
                                 j++;
                             }
-                            eqCount += int.Parse(num);
-                            // 
-                            return "There has been " + eqCount + " earthquakes of this description in the last year";
+
+                            return parkName + " is within one mile of this location!";
                         }
 
                     }
@@ -76,7 +74,7 @@ namespace ElectiveService2
                 }
                 catch (HttpRequestException ex)
                 {
-                    return "unsuccessful request (no data)";
+                    return "No parks found";
                 }
             }
         }

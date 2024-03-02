@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectiveService2", "ElectiveService2\ElectiveService2.csproj", "{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryItPage", "TryItPage\TryItPage.csproj", "{4570105E-1397-49E9-AB44-932B5C1AC1BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889} = {AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrimeDataService", "CrimeDataService\CrimeDataService.csproj", "{A601ED08-B3F8-4098-BAB1-000091787B81}"
 EndProject
