@@ -27,14 +27,15 @@ namespace electiveService1
     (graders, I am watching you) ps if you have your own key please use it, you can create for free on google cloud
 
     example query:
-    https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33.4%2C-111.8&radius=4800&type=park&key=AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
+    https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33.4%2C-111.8&radius=1600&type=park&key=AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
 
     ----------------------------------------------------------------------------------------------------------------
-    We using the google places api to find parks within 4800 meters of a given location
+    We using the google places api to find parks within 1600 meters of a given location
     (this is 3 miles for you American folk)
     If there is a nearby park, we will return the name of the park
     If there is no nearby park, we will return "no nearby parks"
-    most errors are not finding any parks
+
+    most errors are not finding any parks or from having lots of parks at the same location in the database
      */
     public class Service1 : IService1
     {
@@ -60,10 +61,19 @@ namespace electiveService1
                     {
                         //read content as string
                         string jsonData = await response.Content.ReadAsStringAsync();
+
+                        string test = jsonData.Substring(0, 75); // lets see if there are any results
+                        int index = test.IndexOf("ZERO_RESULTS");
+                        if (index != -1)
+                        {
+                            return "There are no parks within 1 mile of this location";
+                        }
+
+
                         string partial = jsonData.Substring(0, 2108);   //this JSON is huge, we only need a small part of it. This part is the first (closest) record
 
                         //now that we have partial data, we can parse it for the name of the park
-                        int index = partial.IndexOf("name");
+                        index = partial.IndexOf("name");
                         if (index == -1)
                         {
                             return "There are no parks within a mile of this location";
@@ -116,7 +126,7 @@ input (latitude, longitude)     |  expected output:
 40.7128, -74.0060               |  "Daj Hammarskjold Plaza"
                                 | this lat/long is New York City, there are lots of areas tagged as parks
 
-39.07, -75.13                   |  "No parks found"
+39.07, -75.13                   | Error
                                 | this lat/long is in the middle of the ocean, no parks
 
  */

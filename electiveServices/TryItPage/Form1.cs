@@ -23,6 +23,9 @@ http://localhost:52574/Service1.svc
 ServiceReference1
 
 findTheaters service (elective service 2)
+http://localhost:52840/Service1.svc
+ServiceReference2
+
 
  */
 
@@ -59,6 +62,28 @@ namespace TryItPage
             client.Close(); //good practice to close the client
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //activate elective service 2
+
+            //handling these here because can trouble
+            latitude = Convert.ToDouble(textBox4.Text);
+            longitude = Convert.ToDouble(textBox3.Text);
+
+            var client = new ServiceReference2.Service1Client();
+
+            try
+            {
+                label4.Text = client.findTheaters(latitude, longitude);
+            }
+            catch (Exception ex)
+            {
+                label4.Text = "Error: " + ex.Message;
+            }
+            client.Close(); //good practice to close the client
+
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -71,13 +96,37 @@ namespace TryItPage
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //latitude
+            //latitudePark
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            //longitude
+            //longitudePark
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            //longitudeTheater
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            //latitudeTheater
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

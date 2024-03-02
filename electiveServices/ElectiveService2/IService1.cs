@@ -13,7 +13,7 @@ Detailed comments and known bugs in the Service1.svc.cs file
 (workflow on top, bugs/test cases commented beneath)
  */
 
-namespace electiveService2
+namespace ElectiveService2
 {
     [ServiceContract]
     public interface IService1

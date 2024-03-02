@@ -1,2 +1,10 @@
 C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\obj\Debug\ElectiveService2.csproj.AssemblyReference.cache
 C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\obj\Debug\ElectiveService2.csproj.CoreCompileInputs.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\bin\ElectiveService2.dll.config
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\bin\ElectiveService2.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\bin\ElectiveService2.pdb
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\bin\Newtonsoft.Json.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\bin\Newtonsoft.Json.xml
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\obj\Debug\Elective.A2FFB90E.Up2Date
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\obj\Debug\ElectiveService2.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\ElectiveService2\obj\Debug\ElectiveService2.pdb

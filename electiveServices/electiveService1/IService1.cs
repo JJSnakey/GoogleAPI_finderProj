@@ -14,8 +14,6 @@ Park within 1600 meters of a given location
 
 Detailed comments and known bugs in the Service1.svc.cs file
 (workflow on top, bugs/test cases commented beneath)
- 
- 
  */
 
 namespace electiveService1
