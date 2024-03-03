@@ -111,19 +111,24 @@ This API finds anything with the type "park"
 sometimes things in the database are tagged park but are not parks
 
 *Test Cases*
-input (latitude, longitude)     |  expected output:                
+input (latitude, longitude)     | expected output:                
                                 | description
 
-33.4, -111.8                    |  "Emerald Volleyball Court"      
+33.4, -111.8                    | Emerald Volleyball Court     
                                 | this lat/long is Mesa AZ, Emerald volleyball court is a park
 
-33.4, -111.9                    |  "Meyer Park" 
-                                | this lat/long is Tempe AZ, Meyer Park is closest
+33.4, -111.9                    | Meyer Park 
+                                | this lat/long is Tempe AZ
 
-40.7128, -74.0060               |  "Daj Hammarskjold Plaza"
+40.71, -74.01                   | The Battery
                                 | this lat/long is New York City, there are lots of areas tagged as parks
 
-39.07, -75.13                   | Error
+39.07, -75.13                   | None nearby
                                 | this lat/long is in the middle of the ocean, no parks
+                                
+34.05, -118.24                  | Gloria Molina Grand Park
+                                | Los Angeles
 
+30.27, -97.74                   | Auditorium Shores at Town Lake Metropolitan Park
+                                | Austin Texas
  */

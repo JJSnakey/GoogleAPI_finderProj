@@ -107,23 +107,29 @@ namespace electiveService3
 }
 
 /*
-*Notes *
+*Notes*
 This API finds anything with the type "secondary_school"
 
 
 *Test Cases*
-input (latitude, longitude)     |  expected output:                
+input (latitude, longitude)     | expected output:                
                                 | description
 
-33.4, -111.8                    | AMC Mesa Grand 14
-                                | this lat/long is Mesa AZ, AMC is the closest
+33.4, -111.8                    | Mesa High School
+                                | this lat/long is Mesa AZ
 
-33.4, -111.9                    | Cinemark Mesa 16 
-                                | this lat/long is Tempe AZ, Cinemark is closest
+33.4, -111.9                    | McClintock High School
+                                | this lat/long is Tempe AZ
 
-40.7, -74.0                     | Regal Union Square
-                                | this lat/long is New York City, there are lots of areas tagged as parks
+40.71, -74.01                   | Stuyvesant High School
+                                | this lat/long is New York City
 
-39.07, -75.13                   | Error
+39.07, -75.13                   | None nearby
                                 | this lat/long is in the middle of the ocean, no parks
+                                                                
+34.05, -118.24                  | Ramon C Cortines
+                                | Los Angeles
+                                
+30.27, -97.74                   | Austin High School
+                                | Austin Texas
 */

@@ -106,23 +106,30 @@ namespace electiveService4
 }
 
 /*
-*Notes *
+*Notes*
 This API finds anything with the type "bus_station"
-
+States have different naming conventions for their bus stations
+^Most use street names, some separate cross roads with 2 spaces and some separate with a slash
 
 *Test Cases*
-input (latitude, longitude)     |  expected output:                
+input (latitude, longitude)     | expected output:                
                                 | description
 
 33.4, -111.8                    | Southern Avenue and Stapley Drive
-                                | this lat/long is Mesa AZ, AMC is the closest
+                                | this lat/long is Mesa AZ
 
-33.4, -111.9                    | Cinemark Mesa 16 
+33.4, -111.9                    | Country Club  Alameda Dr (Flag Zone)
                                 | this lat/long is Tempe AZ, Cinemark is closest
 
-40.7, -74.0                     | Regal Union Square
+40.71, -74.01                   | Broadway/Cedar St.
                                 | this lat/long is New York City, there are lots of areas tagged as parks
 
-39.07, -75.13                   | Error
+39.07, -75.13                   | None nearby
                                 | this lat/long is in the middle of the ocean, no parks
+
+34.05, -118.24                  | None Nearby
+                                | Los Angeles
+
+30.27, -97.74                   | Cesar Chaves/Brazos
+                                | Austin Texas
 */
