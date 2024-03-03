@@ -4,7 +4,7 @@ using System.Net.Http;
 
 /*
 Joshua Greer 1218576515
-CSE 445 Assignment 3 part 1 (individual)
+CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
 
 ===Try it page===

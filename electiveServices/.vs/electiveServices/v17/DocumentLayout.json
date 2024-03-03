@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpageaspnet\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|solutionrelative:tryitpageaspnet\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpageaspnet\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|solutionrelative:tryitpageaspnet\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\service1.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\service1.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveservice3\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\service1.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
-      "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\service1.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Web.config",
-              "RelativeDocumentMoniker": "electiveService3\\Web.config",
-              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Web.config",
-              "RelativeToolTip": "electiveService3\\Web.config",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-03-03T06:06:37.599Z",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPageAspNET\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "TryItPageAspNET\\WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPageAspNET\\WebForm1.aspx.cs",
+              "RelativeToolTip": "TryItPageAspNET\\WebForm1.aspx.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAgwIQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:54:09.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPageAspNET\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "TryItPageAspNET\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPageAspNET\\WebForm1.aspx",
+              "RelativeToolTip": "TryItPageAspNET\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-03T18:37:28.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Service1.svc",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Service1.svc",
               "RelativeDocumentMoniker": "electiveService3\\Service1.svc",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IService1.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\IService1.cs",
               "RelativeDocumentMoniker": "electiveService3\\IService1.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Service1.svc.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Service1.svc.cs",
               "RelativeDocumentMoniker": "electiveService3\\Service1.svc.cs",
@@ -90,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPage\\Form1.cs",
               "RelativeDocumentMoniker": "TryItPage\\Form1.cs",
               "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPage\\Form1.cs",
               "RelativeToolTip": "TryItPage\\Form1.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAgwHAAAABCAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAA5wGIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T21:11:53.11Z",
               "EditorCaption": ""
