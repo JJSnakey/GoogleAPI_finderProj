@@ -54,7 +54,7 @@ namespace TryItPageAspNET
         {
 
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button1_Click(object sender, EventArgs e)
         {
             //park service
@@ -76,7 +76,7 @@ namespace TryItPageAspNET
             }
             client.Close(); //good practice to close the client
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button2_Click(object sender, EventArgs e)
         {
             //theaters service
@@ -98,7 +98,7 @@ namespace TryItPageAspNET
             }
             client.Close(); //good practice to close the client
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button3_Click(object sender, EventArgs e)
         {
             /*
@@ -129,10 +129,9 @@ namespace TryItPageAspNET
             catch (Exception ex)
             {
                 Label3.Text = "No high schools nearby or invalid latitude/longitude";
-            }
-            */
+            }*/
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button4_Click(object sender, EventArgs e)
         {
             //bus stops service
@@ -154,9 +153,24 @@ namespace TryItPageAspNET
             }
             client.Close(); //good practice to close the client
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button5_Click(object sender, EventArgs e)
         {
+            //set inputs
+            city = TextBox3.Text;
+            stateAbbr = TextBox4.Text;
+
+            //check for valid state abbreviation
+            if(stateAbbr.Length != 2)
+            {
+                Label5.Text = "State abbreviation must be 2 characters";
+                return;
+            }
+            else
+            {
+                stateAbbr = stateAbbr.ToUpper();
+            }
+
             //crime data service
             var client = new ServiceReference5.Service1Client();
 
@@ -171,7 +185,7 @@ namespace TryItPageAspNET
             }
             client.Close(); //good practice to close the client
         }
-
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button6_Click(object sender, EventArgs e)
         {
             //natural hazard data service
@@ -193,6 +207,7 @@ namespace TryItPageAspNET
             }
             client.Close(); //good practice to close the client
         }
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
             //latitude
