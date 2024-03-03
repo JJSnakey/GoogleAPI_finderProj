@@ -101,24 +101,24 @@ namespace TryItPageAspNET
         }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button3_Click(object sender, EventArgs e)
-        {
-            
+        {  
             //schools service
             //activate elective service 3
 
             //handling these here because can trouble
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
+            string jsonData = "";
 
             HttpClient client = new HttpClient();
             string URI = "http://localhost:55640/Service1.svc/findSchool?latitude=" + latitude + "&longitude=" + longitude;
 
             try
             {
-                HttpResponseMessage response = await client.GetAsync(URI);
-                if (response.IsSuccessStatusCode)
+                Task<HttpResponseMessage> response = client.GetAsync(URI);
+                jsonData = response.Result.Content.ReadAsStringAsync().Result;
+                if (jsonData != "")
                 {
-                    string jsonData = await response.Content.ReadAsStringAsync();
                     int length = jsonData.Length;
                     Label3.Text = jsonData.Substring(1, length - 2);
                 }
