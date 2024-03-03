@@ -20,14 +20,22 @@ findTheaters service (elective service 2)
 http://localhost:52840/Service1.svc
 ServiceReference2
 
-find high schools service (elective service 3)
+find high schools service (elective service 3)---------RESTful service
 http://localhost:55640/Service1.svc
-ServiceReference3
+<no reference>
 
 find bus stops service (elective service 4)
 http://localhost:55641/Service1.svc
 ServiceReference4
 
+Required services: (from part 1)
+crime data service
+http://localhost:55023/Service1.svc
+ServiceReference5
+
+natural hazard data service
+http://localhost:56759/Service1.svc
+ServiceReference6
  */
 
 namespace TryItPageAspNET

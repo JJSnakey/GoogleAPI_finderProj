@@ -140,6 +140,7 @@
     <None Include="Connected Services\ServiceReference6\Service11.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="TryItPage.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">

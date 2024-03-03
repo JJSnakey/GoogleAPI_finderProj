@@ -24,8 +24,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryItPageAspNET", "TryItPag
 		{C48DE20A-C4E9-454C-A35F-2D26B5B7F96C} = {C48DE20A-C4E9-454C-A35F-2D26B5B7F96C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryItPage", "TryItPage\TryItPage.csproj", "{4570105E-1397-49E9-AB44-932B5C1AC1BA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,10 +58,6 @@ Global
 		{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4570105E-1397-49E9-AB44-932B5C1AC1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4570105E-1397-49E9-AB44-932B5C1AC1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4570105E-1397-49E9-AB44-932B5C1AC1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4570105E-1397-49E9-AB44-932B5C1AC1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
