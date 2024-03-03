@@ -50,10 +50,10 @@
             (Latitude and Longitde are inputs for the following services)</p>
         <p>
             Latitude:<asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-            (Enter a valid latitude value)</p>
+            (Enter a valid latitude value, Tempe AZ lat is 33.4)</p>
         <p>
             Longitude:<asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
-            (Enter a valid latitude value)</p>
+            (Enter a valid latitude value, Tempe AZ long is -111.9)</p>
         <p>
             -Parks Service:</p>
         <p>
@@ -82,6 +82,14 @@
 &nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label4" runat="server" Text="Results:"></asp:Label>
         </p>
+        <p style="width: 1047px">
+            .</p>
+        <p style="width: 1047px">
+            .</p>
+        <p style="width: 1047px">
+            .</p>
+        <p style="width: 1047px">
+            &nbsp;</p>
     </form>
 </body>
 </html>

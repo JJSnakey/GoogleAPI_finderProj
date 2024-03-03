@@ -7,9 +7,8 @@ Joshua Greer 1218576515
 from CSE 445 - Assignment 3 part 1
 for CSE 445 - Assignment 3 part 2
 3/3/2024
-
 Required service 18 crime data service
-
+HARD DIFFICULTY
 
 Implementing this code for assignment 3 part 2
 This code was written by me for the first part of the assignment,

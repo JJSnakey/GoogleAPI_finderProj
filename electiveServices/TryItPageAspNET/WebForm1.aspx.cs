@@ -15,27 +15,32 @@ Run these in local host to test the services:
 findParks service (elective service 1)
 http://localhost:52574/Service1.svc 
 ServiceReference1
+MODERATE DIFFICULTY
 
 findTheaters service (elective service 2)
 http://localhost:52840/Service1.svc
 ServiceReference2
+MODERATE DIFFICULTY
 
-find high schools service (elective service 3)---------RESTful service
+find high schools service (elective service 3)---------RESTful Service
 http://localhost:55640/Service1.svc
-<no reference>
+MODERATE DIFFICULTY
 
 find bus stops service (elective service 4)
 http://localhost:55641/Service1.svc
 ServiceReference4
+MODERATE DIFFICULTY
 
 Required services: (from part 1)
 crime data service
 http://localhost:55023/Service1.svc
 ServiceReference5
+HARD DIFFICULTY
 
 natural hazard data service
 http://localhost:56759/Service1.svc
 ServiceReference6
+MODERATE DIFFICULTY
  */
 
 namespace TryItPageAspNET

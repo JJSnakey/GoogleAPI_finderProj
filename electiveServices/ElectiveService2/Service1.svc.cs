@@ -8,6 +8,7 @@ CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
 Elective Service 2
 Find movie theaters service
+MODERATE DIFFICULTY
 
 http://localhost:52840/Service1.svc
 local host testing

@@ -8,6 +8,7 @@ CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
 Elective Service 4
 Find bus stops service
+MODERATE DIFFICULTY
 
 http://localhost:55641/Service1.svc
 local host testing
