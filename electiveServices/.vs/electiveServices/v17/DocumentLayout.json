@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|solutionrelative:tryitpageaspnet\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpageaspnet\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\tryitpageaspnet\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B05946A9-BC7F-4CB8-A4A4-637FAA4DB4B0}|TryItPageAspNET\\TryItPageAspNET.csproj|solutionrelative:tryitpageaspnet\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682C54BE-C904-44C7-922D-5F2E97982513}|combinedWSDLforWebstrar\\combinedWSDLforWebstrar.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\combinedwsdlforwebstrar\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682C54BE-C904-44C7-922D-5F2E97982513}|combinedWSDLforWebstrar\\combinedWSDLforWebstrar.csproj|solutionrelative:combinedwsdlforwebstrar\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682C54BE-C904-44C7-922D-5F2E97982513}|combinedWSDLforWebstrar\\combinedWSDLforWebstrar.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\combinedwsdlforwebstrar\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682C54BE-C904-44C7-922D-5F2E97982513}|combinedWSDLforWebstrar\\combinedWSDLforWebstrar.csproj|solutionrelative:combinedwsdlforwebstrar\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C48DE20A-C4E9-454C-A35F-2D26B5B7F96C}|NaturalHazardsService\\NaturalHazardsService.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\naturalhazardsservice\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C48DE20A-C4E9-454C-A35F-2D26B5B7F96C}|NaturalHazardsService\\NaturalHazardsService.csproj|solutionrelative:naturalhazardsservice\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C48DE20A-C4E9-454C-A35F-2D26B5B7F96C}|NaturalHazardsService\\NaturalHazardsService.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\naturalhazardsservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C48DE20A-C4E9-454C-A35F-2D26B5B7F96C}|NaturalHazardsService\\NaturalHazardsService.csproj|solutionrelative:naturalhazardsservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\NaturalHazardsService\\IService1.cs",
+              "RelativeDocumentMoniker": "NaturalHazardsService\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\NaturalHazardsService\\IService1.cs",
+              "RelativeToolTip": "NaturalHazardsService\\IService1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:52:40.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\NaturalHazardsService\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "NaturalHazardsService\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\NaturalHazardsService\\Service1.svc.cs",
+              "RelativeToolTip": "NaturalHazardsService\\Service1.svc.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwGEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:52:39.501Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +70,7 @@
               "RelativeDocumentMoniker": "TryItPageAspNET\\WebForm1.aspx.cs",
               "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPageAspNET\\WebForm1.aspx.cs",
               "RelativeToolTip": "TryItPageAspNET\\WebForm1.aspx.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T18:54:09.163Z",
               "EditorCaption": ""
@@ -44,6 +86,32 @@
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-03-03T18:37:28.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\combinedWSDLforWebstrar\\IService1.cs",
+              "RelativeDocumentMoniker": "combinedWSDLforWebstrar\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\combinedWSDLforWebstrar\\IService1.cs",
+              "RelativeToolTip": "combinedWSDLforWebstrar\\IService1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:41:41.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\combinedWSDLforWebstrar\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "combinedWSDLforWebstrar\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\combinedWSDLforWebstrar\\Service1.svc.cs",
+              "RelativeToolTip": "combinedWSDLforWebstrar\\Service1.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:40:14.891Z",
               "EditorCaption": ""
             }
           ]

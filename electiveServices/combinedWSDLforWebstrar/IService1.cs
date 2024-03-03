@@ -7,9 +7,25 @@ using System.ServiceModel.Web;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Joshua Greer 1218576515
+CSE 445 Assignment 3 part 2 (individual)
+3/3/2024
+
+I have 5 wsdl services that I am putting here for better upload
+plez help me
+
+Elective Service 1 parks
+Elective Service 2 theaters
+Elective Service 4 bus stops
+Crime Data Service
+Natural Hazard Data Service
+
+http://localhost:59753/Service1.svc
+*/
+
 namespace combinedWSDLforWebstrar
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
     public interface IService1
     {

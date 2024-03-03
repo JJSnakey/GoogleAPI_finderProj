@@ -41,6 +41,10 @@ natural hazard data service
 http://localhost:56759/Service1.svc
 ServiceReference6
 MODERATE DIFFICULTY
+
+
+combined service
+http://localhost:59753/Service1.svc
  */
 
 namespace TryItPageAspNET
@@ -78,7 +82,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference1.Service1Client();
+            var client = new ServiceReference9.Service1Client();
 
             try
             {
@@ -100,7 +104,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference2.Service1Client();
+            var client = new ServiceReference9.Service1Client();
 
             try
             {
@@ -155,7 +159,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference4.Service1Client();
+            var client = new ServiceReference9.Service1Client();
 
             try
             {
@@ -186,7 +190,7 @@ namespace TryItPageAspNET
             }
 
             //crime data service
-            var client = new ServiceReference5.Service1Client();
+            var client = new ServiceReference9.Service1Client();
 
             try
             {
@@ -209,7 +213,7 @@ namespace TryItPageAspNET
             radiusKm = Convert.ToInt32(TextBox7.Text);
             minMag = Convert.ToDecimal(TextBox8.Text);
 
-            var client = new ServiceReference6.Service1Client();
+            var client = new ServiceReference9.Service1Client();
 
             try
             {

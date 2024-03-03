@@ -10,11 +10,13 @@ CSE 445 Assignment 3 part 2 (individual)
 I have 5 wsdl services that I am putting here for better upload
 plez help me
 
-Elective Service 1
-Elective Service 2
-Elective Service 4
+Elective Service 1 parks
+Elective Service 2 theaters
+Elective Service 4 bus stops
 Crime Data Service
 Natural Hazard Data Service
+
+http://localhost:59753/Service1.svc
 */
 
 namespace combinedWSDLforWebstrar

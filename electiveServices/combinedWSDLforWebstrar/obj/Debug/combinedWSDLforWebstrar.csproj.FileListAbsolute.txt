@@ -1,0 +1,7 @@
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\bin\combinedWSDLforWebstrar.dll.config
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\bin\combinedWSDLforWebstrar.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\bin\combinedWSDLforWebstrar.pdb
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\obj\Debug\combinedWSDLforWebstrar.csproj.AssemblyReference.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\obj\Debug\combinedWSDLforWebstrar.csproj.CoreCompileInputs.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\obj\Debug\combinedWSDLforWebstrar.dll
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\combinedWSDLforWebstrar\obj\Debug\combinedWSDLforWebstrar.pdb
