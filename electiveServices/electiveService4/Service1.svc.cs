@@ -86,7 +86,7 @@ namespace electiveService4
                                 j++;
                             }
 
-                            return "There is a bus stop at" + stopName + ", which is within one mile of (" + latitude + ", " + longitude + ") !";
+                            return "There is a bus stop at " + stopName + ", which is within one mile of (" + latitude + ", " + longitude + ") !";
                         }
 
                     }

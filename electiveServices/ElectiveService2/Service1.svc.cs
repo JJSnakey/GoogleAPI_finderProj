@@ -87,7 +87,7 @@ namespace ElectiveService2
                                 j++;
                             }
 
-                            return theaterName + " is within one mile of (" + latitude + ", " + longitude + ") !";
+                            return theaterName + " is within four miles of (" + latitude + ", " + longitude + ") !";
                         }
 
                     }
