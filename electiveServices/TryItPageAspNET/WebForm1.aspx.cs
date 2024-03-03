@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -101,7 +102,7 @@ namespace TryItPageAspNET
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button3_Click(object sender, EventArgs e)
         {
-            /*
+            
             //schools service
             //activate elective service 3
 
@@ -129,7 +130,7 @@ namespace TryItPageAspNET
             catch (Exception ex)
             {
                 Label3.Text = "No high schools nearby or invalid latitude/longitude";
-            }*/
+            }
         }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         protected void Button4_Click(object sender, EventArgs e)

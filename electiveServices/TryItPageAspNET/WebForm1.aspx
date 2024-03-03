@@ -15,11 +15,11 @@
         <p>
             City:&nbsp;
             <asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
-        </p>
+&nbsp;(Enter a valid city name within the state, capitalize the first letter after each space)</p>
         <p>
             State:&nbsp;
             <asp:TextBox ID="TextBox4" runat="server" OnTextChanged="TextBox4_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a valid state abbreviation, 2 capital letters)</p>
         <p>
             <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Crimes Per Year" Width="140px" />
 &nbsp;&nbsp;&nbsp;
@@ -29,32 +29,31 @@
             -Natural Hazards Service:</p>
         <p>
             Latitude:<asp:TextBox ID="TextBox5" runat="server" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a valid latitude value)</p>
         <p>
             Longitude:<asp:TextBox ID="TextBox6" runat="server" OnTextChanged="TextBox6_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a valid latitude value)</p>
         <p>
             Radius:<asp:TextBox ID="TextBox7" runat="server" OnTextChanged="TextBox7_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a positive integer for Radius in Kilometers, recommended 1000)</p>
         <p>
             Minimum Magnitude:<asp:TextBox ID="TextBox8" runat="server" OnTextChanged="TextBox8_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a postive value with up to 1 decimal, recommended 3.0)</p>
         <p>
             <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Earthquakes Per Year" Width="172px" />
 &nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label6" runat="server" Text="Results:"></asp:Label>
         </p>
         <p>
-            --Elective Services--
-        </p>
+            --Elective Services-- </p>
         <p>
             (Latitude and Longitde are inputs for the following services)</p>
         <p>
             Latitude:<asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a valid latitude value)</p>
         <p>
             Longitude:<asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
-        </p>
+            (Enter a valid latitude value)</p>
         <p>
             -Parks Service:</p>
         <p>
