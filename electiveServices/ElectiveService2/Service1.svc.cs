@@ -63,19 +63,11 @@ namespace ElectiveService2
                     if (response.IsSuccessStatusCode)
                     {
                         //read content as string
-                        string jsonData = await response.Content.ReadAsStringAsync();
-                        
-                        string test = jsonData.Substring(0, 74); // lets see if there are any results
-                        int index = test.IndexOf("ZERO_RESULTS");
-                        if(index != -1)
-                        {
-                            return "There are no movie theaters within 4 miles of this location";
-                        }
-                        
+                        string jsonData = await response.Content.ReadAsStringAsync();                   
                         string partial = jsonData.Substring(0, 1950);   //this JSON is huge, we only need a small part of it. This part is the first (closest) record
 
                         //now that we have partial data, we can parse it for the name of the theater
-                        index = partial.IndexOf("name");
+                        int index = partial.IndexOf("name");
                         if (index == -1)
                         {
                             return "There are no movie theaters within 4 miles of this location";
@@ -90,7 +82,7 @@ namespace ElectiveService2
                                 j++;
                             }
 
-                            return theaterName + " is within one mile of this location!";
+                            return theaterName + " is within one mile of (" + latitude + ", " + longitude + ") !";
                         }
 
                     }

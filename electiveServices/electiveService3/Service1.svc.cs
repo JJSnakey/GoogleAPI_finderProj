@@ -21,8 +21,14 @@ namespace electiveService3
 
     /*THE PLAN================================================================================================
 
-    input parameters: latitude, longitude
-    predefined parameters: radius 6400 meters, api key, movie_theater
+    input parameters: 
+    latitude
+    longitude
+    
+    predefined parameters: 
+    radius 6400 meters
+    api key
+    type = school
 
     api key = AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
     google will not let me pass 200$ / month, so be careful and delete when done

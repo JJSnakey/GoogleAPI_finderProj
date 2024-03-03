@@ -62,18 +62,10 @@ namespace electiveService1
                         //read content as string
                         string jsonData = await response.Content.ReadAsStringAsync();
 
-                        string test = jsonData.Substring(0, 75); // lets see if there are any results
-                        int index = test.IndexOf("ZERO_RESULTS");
-                        if (index != -1)
-                        {
-                            return "There are no parks within 1 mile of this location";
-                        }
-
-
                         string partial = jsonData.Substring(0, 2108);   //this JSON is huge, we only need a small part of it. This part is the first (closest) record
 
                         //now that we have partial data, we can parse it for the name of the park
-                        index = partial.IndexOf("name");
+                        int index = partial.IndexOf("name");
                         if (index == -1)
                         {
                             return "There are no parks within a mile of this location";
@@ -88,7 +80,7 @@ namespace electiveService1
                                 j++;
                             }
 
-                            return parkName + " is within one mile of this location!";
+                            return parkName + " is within one mile of (" + latitude + ", " + longitude + ") !";
                         }
 
                     }

@@ -57,7 +57,7 @@ namespace TryItPage
             }
             catch (Exception ex)
             {
-                label3.Text = "Error: " + ex.Message;
+                label3.Text = "No parks nearby or invalid latitude/longitude";
             }
             client.Close(); //good practice to close the client
         }
@@ -67,8 +67,8 @@ namespace TryItPage
             //activate elective service 2
 
             //handling these here because can trouble
-            latitude = Convert.ToDouble(textBox4.Text);
-            longitude = Convert.ToDouble(textBox3.Text);
+            latitude = Convert.ToDouble(textBox1.Text);
+            longitude = Convert.ToDouble(textBox2.Text);
 
             var client = new ServiceReference2.Service1Client();
 
@@ -78,7 +78,33 @@ namespace TryItPage
             }
             catch (Exception ex)
             {
-                label4.Text = "Error: " + ex.Message;
+                label4.Text = "No Theaters nearby or invalid latitude/longitude";
+            }
+            client.Close(); //good practice to close the client
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //activate elective service 3
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //activate elective service 4
+
+            //handling these here because can trouble
+            latitude = Convert.ToDouble(textBox1.Text);
+            longitude = Convert.ToDouble(textBox2.Text);
+
+            var client = new ServiceReference4.Service1Client();
+
+            try
+            {
+                label11.Text = client.findBusStation(latitude, longitude);
+            }
+            catch (Exception ex)
+            {
+                label11.Text = "No bus stations nearby or invalid latitude/longitude";
             }
             client.Close(); //good practice to close the client
 
@@ -114,17 +140,12 @@ namespace TryItPage
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            //longitudeTheater
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            //latitudeTheater
-        }
-
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
         {
 
         }
