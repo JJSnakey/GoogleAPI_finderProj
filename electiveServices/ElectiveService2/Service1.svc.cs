@@ -9,8 +9,6 @@ CSE 445 Assignment 3 part 2 (individual)
 Elective Service 2
 Find movie theaters service
 
-Movie theaters within 6400 meters of a given location (4 miles)
-
 http://localhost:52840/Service1.svc
 local host testing
 
@@ -22,12 +20,19 @@ namespace ElectiveService2
 
     /*THE PLAN================================================================================================
 
-    input parameters: latitude, longitude
-    predefined parameters: radius 6400 meters, api key, movie_theater
-
+    input parameters: 
+    latitude
+    longitude
+    
+    predefined parameters: 
+    radius 6400 meters
     api key = AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
+    type = movie_theater
+
+    
     google will not let me pass 200$ / month, so be careful and delete when done
-    (graders, I am watching you) ps if you have your own key please use it, you can create for free on google cloud
+    (graders, I am watching you) 
+    ps if you have your own key please use it, you can create for free on google cloud
 
     example query:
     https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33.4%2C-111.8&radius=6400&type=movie_theater&key=AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
@@ -102,7 +107,7 @@ namespace ElectiveService2
 }
 
 /*
- * *Notes *
+*Notes *
 This API finds anything with the type "movie_theater"
 
 

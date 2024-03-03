@@ -179,6 +179,7 @@
             this.label6.Size = new System.Drawing.Size(81, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "Result Here:";
+            this.label6.Click += new System.EventHandler(this.label6_Click_1);
             // 
             // label10
             // 

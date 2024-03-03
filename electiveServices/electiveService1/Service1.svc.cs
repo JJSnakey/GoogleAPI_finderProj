@@ -7,7 +7,7 @@ Joshua Greer 1218576515
 CSE 445 Assignment 3 part 2 (individual)
 3/3/2024
 Elective Service 1
-Parks within 1600 meters of a given location (1 mile)
+Park finder service
 
 http://localhost:52574/Service1.svc
 local host testing
@@ -19,12 +19,18 @@ namespace electiveService1
 {
     /*THE PLAN================================================================================================
 
-    input parameters: latitude, longitude
-    predefined parameters: radius 1600 meters, api key, parks
-
+    input parameters: 
+    latitude
+    longitude
+    
+    predefined parameters: 
+    radius 1600 meters
     api key = AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
+    type = park
+
     google will not let me pass 200$ / month, so be careful and delete when done
-    (graders, I am watching you) ps if you have your own key please use it, you can create for free on google cloud
+    (graders, I am watching you) 
+    ps if you have your own key please use it, you can create for free on google cloud
 
     example query:
     https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=33.4%2C-111.8&radius=1600&type=park&key=AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
@@ -103,7 +109,6 @@ namespace electiveService1
 *Notes*
 This API finds anything with the type "park"
 sometimes things in the database are tagged park but are not parks
-
 
 *Test Cases*
 input (latitude, longitude)     |  expected output:                

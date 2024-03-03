@@ -9,7 +9,6 @@ CSE 445 Assignment 3 part 2 (individual)
 Elective Service 4
 Find bus stops service
 
-
 http://localhost:55641/Service1.svc
 local host testing
 
@@ -26,10 +25,9 @@ namespace electiveService4
     
     predefined parameters: 
     radius 1600 meters
-    api key
+    api key = AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
     type = bus_station
 
-    api key = AIzaSyD5NdSZgBOdreBiPCsDjoCGNU20Y_eVu-s
     google will not let me pass 200$ / month, so be careful and delete when done
     (graders, I am watching you) 
     ps if you have your own key please use it, you can create for free on google cloud
@@ -80,7 +78,7 @@ namespace electiveService4
                         }
                         else
                         {
-                            int j = index + 9; //skip to the name of the theater
+                            int j = index + 9; //skip to the name of the bus stop
                             string stopName = "";
                             while (partial[j] != ',' && partial[j] != '}' && partial[j] != '\"')
                             {
@@ -88,7 +86,7 @@ namespace electiveService4
                                 j++;
                             }
 
-                            return "There is a bus stop at" + stopName + ", which is within one mile of (" + latitude + ", " + longitude + ") !"; ;
+                            return "There is a bus stop at" + stopName + ", which is within one mile of (" + latitude + ", " + longitude + ") !";
                         }
 
                     }
@@ -108,8 +106,8 @@ namespace electiveService4
 }
 
 /*
- * *Notes *
-This API finds anything with the type "movie_theater"
+*Notes *
+This API finds anything with the type "bus_station"
 
 
 *Test Cases*
