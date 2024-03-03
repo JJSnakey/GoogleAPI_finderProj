@@ -1,0 +1,2 @@
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService4\obj\Debug\electiveService4.csproj.AssemblyReference.cache
+C:\Users\qwert\source\repos\445-3-4\CSE445assignment4\electiveServices\electiveService4\obj\Debug\electiveService4.csproj.CoreCompileInputs.cache

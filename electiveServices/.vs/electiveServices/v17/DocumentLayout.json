@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice3\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3599DE2-D65F-43DF-A871-B752F4677C31}|electiveService3\\electiveService3.csproj|solutionrelative:electiveservice3\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18735A18-4E3A-4D37-ABC0-426087B9BE9B}|electiveService4\\electiveService4.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice4\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18735A18-4E3A-4D37-ABC0-426087B9BE9B}|electiveService4\\electiveService4.csproj|solutionrelative:electiveservice4\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18735A18-4E3A-4D37-ABC0-426087B9BE9B}|electiveService4\\electiveService4.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice4\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18735A18-4E3A-4D37-ABC0-426087B9BE9B}|electiveService4\\electiveService4.csproj|solutionrelative:electiveservice4\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice2\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|solutionrelative:electiveservice2\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFBE8E0B-3845-4FA5-84F5-CD3275D1E889}|electiveService1\\electiveService1.csproj|solutionrelative:electiveservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\electiveservice2\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F3DE5F2-02D7-40FC-AC7A-F91799AFDAA2}|ElectiveService2\\ElectiveService2.csproj|solutionrelative:electiveservice2\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|c:\\users\\qwert\\source\\repos\\445-3-4\\cse445assignment4\\electiveservices\\tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4570105E-1397-49E9-AB44-932B5C1AC1BA}|TryItPage\\TryItPage.csproj|solutionrelative:tryitpage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Service1.svc.cs",
-              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\Service1.svc.cs",
-              "RelativeDocumentMoniker": "electiveService1\\Service1.svc.cs",
-              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService1\\Service1.svc.cs",
-              "RelativeToolTip": "electiveService1\\Service1.svc.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwEQAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T23:10:53.445Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IService1.cs",
-              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\IService1.cs",
-              "RelativeDocumentMoniker": "ElectiveService2\\IService1.cs",
-              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\IService1.cs",
-              "RelativeToolTip": "ElectiveService2\\IService1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService4\\IService1.cs",
+              "RelativeDocumentMoniker": "electiveService4\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService4\\IService1.cs",
+              "RelativeToolTip": "electiveService4\\IService1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T22:35:17.45Z",
+              "WhenOpened": "2024-03-03T00:48:09.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService4\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "electiveService4\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService4\\Service1.svc.cs",
+              "RelativeToolTip": "electiveService4\\Service1.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T00:46:53.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\IService1.cs",
+              "RelativeDocumentMoniker": "electiveService3\\IService1.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\IService1.cs",
+              "RelativeToolTip": "electiveService3\\IService1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T00:47:22.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "electiveService3\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\electiveService3\\Service1.svc.cs",
+              "RelativeToolTip": "electiveService3\\Service1.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T00:46:37.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service1.svc.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\Service1.svc.cs",
               "RelativeDocumentMoniker": "ElectiveService2\\Service1.svc.cs",
-              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\Service1.svc.cs*",
-              "RelativeToolTip": "ElectiveService2\\Service1.svc.cs*",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwEMAAAA+AAAA",
+              "ToolTip": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\ElectiveService2\\Service1.svc.cs",
+              "RelativeToolTip": "ElectiveService2\\Service1.svc.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwIMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T22:35:19.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPage\\Form1.cs",
               "RelativeDocumentMoniker": "TryItPage\\Form1.cs",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\qwert\\source\\repos\\445-3-4\\CSE445assignment4\\electiveServices\\TryItPage\\Form1.cs",
               "RelativeDocumentMoniker": "TryItPage\\Form1.cs",
