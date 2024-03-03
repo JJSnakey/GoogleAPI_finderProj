@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Net.Http;
 
 /*
 Joshua Greer 1218576515
@@ -91,7 +83,7 @@ namespace TryItPage
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private async void button3_Click(object sender, EventArgs e)
         {
             //activate elective service 3
 
@@ -99,17 +91,27 @@ namespace TryItPage
             latitude = Convert.ToDouble(textBox1.Text);
             longitude = Convert.ToDouble(textBox2.Text);
 
-            var client = new ServiceReference3.Service1Client();
+            HttpClient client = new HttpClient();
+            string URI = "http://localhost:55640/Service1.svc/findSchool?latitude=" + latitude + "&longitude=" + longitude;
 
             try
             {
-                label6.Text = client.findSchool(latitude, longitude);
+                HttpResponseMessage response = await client.GetAsync(URI);
+                if (response.IsSuccessStatusCode)
+                {
+                    string jsonData = await response.Content.ReadAsStringAsync();
+                    int length = jsonData.Length;
+                    label6.Text = jsonData.Substring(1, length - 2);
+                }
+                else
+                {
+                    label6.Text = "unsuccessful request (no data)";
+                }
             }
             catch (Exception ex)
             {
                 label6.Text = "No high schools nearby or invalid latitude/longitude";
             }
-            client.Close(); //good practice to close the client
 
         }
 
@@ -181,3 +183,25 @@ namespace TryItPage
         }
     }
 }
+
+/*
+old wsdl electiveservice3
+
+//handling these here because can trouble
+            latitude = Convert.ToDouble(textBox1.Text);
+            longitude = Convert.ToDouble(textBox2.Text);
+
+            var client = new ServiceReference3.Service1Client();
+
+            try
+            {
+                label6.Text = client.findSchool(latitude, longitude);
+            }
+            catch (Exception ex)
+            {
+                label6.Text = "No high schools nearby or invalid latitude/longitude";
+            }
+            client.Close(); //good practice to close the client
+
+
+*/
