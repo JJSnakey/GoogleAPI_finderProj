@@ -82,7 +82,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference9.Service1Client();
+            var client = new ServiceReference11.Service1Client();
 
             try
             {
@@ -104,7 +104,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference9.Service1Client();
+            var client = new ServiceReference11.Service1Client();
 
             try
             {
@@ -128,7 +128,7 @@ namespace TryItPageAspNET
             string jsonData = "";
 
             HttpClient client = new HttpClient();
-            string URI = "http://localhost:55640/Service1.svc/findSchool?latitude=" + latitude + "&longitude=" + longitude;
+            string URI = "http://webstrar5.fulton.asu.edu/page4/Service1.svc/findSchool?latitude=" + latitude + "&longitude=" + longitude;
 
             try
             {
@@ -159,7 +159,7 @@ namespace TryItPageAspNET
             latitude = Convert.ToDouble(TextBox1.Text);
             longitude = Convert.ToDouble(TextBox2.Text);
 
-            var client = new ServiceReference9.Service1Client();
+            var client = new ServiceReference11.Service1Client();
 
             try
             {
@@ -190,7 +190,7 @@ namespace TryItPageAspNET
             }
 
             //crime data service
-            var client = new ServiceReference9.Service1Client();
+            var client = new ServiceReference11.Service1Client();
 
             try
             {
@@ -213,7 +213,7 @@ namespace TryItPageAspNET
             radiusKm = Convert.ToInt32(TextBox7.Text);
             minMag = Convert.ToDecimal(TextBox8.Text);
 
-            var client = new ServiceReference9.Service1Client();
+            var client = new ServiceReference11.Service1Client();
 
             try
             {

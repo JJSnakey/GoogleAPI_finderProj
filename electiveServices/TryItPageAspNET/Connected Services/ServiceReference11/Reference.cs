@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TryItPageAspNET.ServiceReference9 {
+namespace TryItPageAspNET.ServiceReference11 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference9.IService1")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference11.IService1")]
     public interface IService1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/findParks", ReplyAction="http://tempuri.org/IService1/findParksResponse")]
@@ -53,12 +53,12 @@ namespace TryItPageAspNET.ServiceReference9 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : TryItPageAspNET.ServiceReference9.IService1, System.ServiceModel.IClientChannel {
+    public interface IService1Channel : TryItPageAspNET.ServiceReference11.IService1, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<TryItPageAspNET.ServiceReference9.IService1>, TryItPageAspNET.ServiceReference9.IService1 {
+    public partial class Service1Client : System.ServiceModel.ClientBase<TryItPageAspNET.ServiceReference11.IService1>, TryItPageAspNET.ServiceReference11.IService1 {
         
         public Service1Client() {
         }

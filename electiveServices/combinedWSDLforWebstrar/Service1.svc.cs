@@ -15,8 +15,10 @@ Elective Service 2 theaters
 Elective Service 4 bus stops
 Crime Data Service
 Natural Hazard Data Service
+http://webstrar5.fulton.asu.edu/page3/Service1.svc
 
-http://localhost:59753/Service1.svc
+elective service 3 high schools - Restful Service
+http://webstrar5.fulton.asu.edu/page4/Service1.svc
 */
 
 namespace combinedWSDLforWebstrar
