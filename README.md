@@ -4,6 +4,7 @@ Joshua Greer
 
 Distributed Software Development - Spring 2024
 
+Created/Tested in VS2022 with services uploaded to ASU Webstrar Server
 
 Created 6 services: 2 ASU and 4 Google, 5 wsdl and 1 RESTful
 - Crime Data Service
